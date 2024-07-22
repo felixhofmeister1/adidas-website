@@ -1,0 +1,148 @@
+.section-page {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f7f7f7;
+  padding: 20px;
+}
+
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.3s;
+  border-radius: 5px;
+}
+
+.filter-buttons button:hover {
+  background-color: #f00;
+  transform: scale(1.05);
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.item-card {
+  position: relative;
+  width: 220px;
+  height: 220px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.item-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.item-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.item-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  transition: opacity 0.3s;
+}
+
+.item-name {
+  font-size: 1.1em;
+  margin: 0;
+  font-weight: bold;
+}
+
+.item-price {
+  color: #f00;
+}
+
+.modal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  max-width: 600px;
+  width: 90%;
+}
+
+.close {
+  cursor: pointer;
+  color: #000;
+  float: right;
+  font-size: 1.5em;
+}
+
+.size-options label {
+  margin-right: 10px;
+}
+
+.modal-image {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.add-to-cart:hover, .go-back:hover {
+  background-color: #c7001a; 
+}
+
+.add-to-cart, .go-back {
+  background-color: #000000; 
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.3s;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+
+.item-card:hover h2,
+.item-card:hover p,
+.item-card:hover button {
+  opacity: 0.2;
+}
