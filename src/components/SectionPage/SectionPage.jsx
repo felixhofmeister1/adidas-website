@@ -4,46 +4,46 @@ import './SectionPage.css';
 
 const items = {
   men: [
-    { src: '/images/adicolor-classic-fanny-pack(mens-accessories1).avif', category: 'accessories', name: 'Classic Fanny Pack', price: '$30' },
-    { src: '/images/essentials-training-duffelbag(mens-accessories2).avif', category: 'accessories', name: 'Training Duffel Bag', price: '$50' },
-    { src: '/images/adicolor-backpack(mens-accessories3).avif', category: 'accessories', name: 'Adicolor Backpack', price: '$45' },
-    { src: '/images/ucl-23-24-knock-out-miniball(mens-accessories4).avif', category: 'accessories', name: 'Miniball', price: '$25' },
-    { src: '/images/astir-shoe(mens-shoes1).avif', category: 'shoes', name: 'Astir Shoes', price: '$120' },
-    { src: '/images/ozmillen-shoe(mens-shoes2).avif', category: 'shoes', name: 'Ozmillen Shoes', price: '$130' },
-    { src: '/images/team-court-shoes(mens-shoes3).avif', category: 'shoes', name: 'Court Shoes', price: '$110' },
-    { src: '/images/Predator-League-FG-Football-Boots(mens-shoes4).avif', category: 'shoes', name: 'Predator Football Boots', price: '$150' },
-    { src: '/images/Entrada-22-Shorts(mens-outfits1).avif', category: 'clothing', name: 'Entrada Shorts', price: '$35' },
-    { src: '/images/aeroready-designed-2-move-feelready-sport-t-shirt(mens-outfits2).avif', category: 'clothing', name: 'Sport T-Shirt', price: '$40' },
-    { src: '/images/originals-adicolor-3-stripes-swim-shorts(men-outfits3).avif', category: 'clothing', name: '3-Stripes Swim Shorts', price: '$50' },
-    { src: '/images/3-stripes-CLX-swim-shorts(mens-outfits4).avif', category: 'clothing', name: 'CLX Swim Shorts', price: '$55' }
+    { src: `${process.env.PUBLIC_URL}/images/adicolor-classic-fanny-pack(mens-accessories1).avif`, category: 'accessories', name: 'Classic Fanny Pack', price: '$30' },
+    { src: `${process.env.PUBLIC_URL}/images/essentials-training-duffelbag(mens-accessories2).avif`, category: 'accessories', name: 'Training Duffel Bag', price: '$50' },
+    { src: `${process.env.PUBLIC_URL}/images/adicolor-backpack(mens-accessories3).avif`, category: 'accessories', name: 'Adicolor Backpack', price: '$45' },
+    { src: `${process.env.PUBLIC_URL}/images/ucl-23-24-knock-out-miniball(mens-accessories4).avif`, category: 'accessories', name: 'Miniball', price: '$25' },
+    { src: `${process.env.PUBLIC_URL}/images/astir-shoe(mens-shoes1).avif`, category: 'shoes', name: 'Astir Shoes', price: '$120' },
+    { src: `${process.env.PUBLIC_URL}/images/ozmillen-shoe(mens-shoes2).avif`, category: 'shoes', name: 'Ozmillen Shoes', price: '$130' },
+    { src: `${process.env.PUBLIC_URL}/images/team-court-shoes(mens-shoes3).avif`, category: 'shoes', name: 'Court Shoes', price: '$110' },
+    { src: `${process.env.PUBLIC_URL}/images/Predator-League-FG-Football-Boots(mens-shoes4).avif`, category: 'shoes', name: 'Predator Football Boots', price: '$150' },
+    { src: `${process.env.PUBLIC_URL}/images/Entrada-22-Shorts(mens-outfits1).avif`, category: 'clothing', name: 'Entrada Shorts', price: '$35' },
+    { src: `${process.env.PUBLIC_URL}/images/aeroready-designed-2-move-feelready-sport-t-shirt(mens-outfits2).avif`, category: 'clothing', name: 'Sport T-Shirt', price: '$40' },
+    { src: `${process.env.PUBLIC_URL}/images/originals-adicolor-3-stripes-swim-shorts(men-outfits3).avif`, category: 'clothing', name: '3-Stripes Swim Shorts', price: '$50' },
+    { src: `${process.env.PUBLIC_URL}/images/3-stripes-CLX-swim-shorts(mens-outfits4).avif`, category: 'clothing', name: 'CLX Swim Shorts', price: '$55' }
   ],
   women: [
-    { src: '/images/essentials-logo-duffel-bag-extra-small(women-accessories1).avif', category: 'accessories', name: 'Small Duffel Bag', price: '$50' },
-    { src: '/images/essentials-logo-duffel-bag-medium(womens-accessories2).avif', category: 'accessories', name: 'Medium Duffel Bag', price: '$70' },
-    { src: '/images/trefoil-baseball-cap(women-accessories3).avif', category: 'accessories', name: 'Baseball Cap', price: '$25' },
-    { src: '/images/prime-backpack(women-accessories4).avif', category: 'accessories', name: 'Prime Backpack', price: '$80' },
-    { src: '/images/forum-low-cl-shoes(women-shoes1).avif', category: 'shoes', name: 'Forum Low CL Shoes', price: '$90' },
-    { src: '/images/ultraboost-5-shoes(womens-shoes2).avif', category: 'shoes', name: 'Ultraboost 5 Shoes', price: '$150' },
-    { src: '/images/terrex-soulstride-flow-trail-running-shoes(women-shoes3).avif', category: 'shoes', name: 'Terrex Soulstride Shoes', price: '$110' },
-    { src: '/images/supernova-3-gtx-running-shoes(women-shoes4).avif', category: 'shoes', name: 'Supernova GTX Running Shoes', price: '$130' },
-    { src: '/images/adicolor-cargo-shorts(womens-clothing1).avif', category: 'clothing', name: 'Cargo Shorts', price: '$55' },
-    { src: '/images/feelbrilliant-designed-to-move-tights(women-cloths2).avif', category: 'clothing', name: 'Move Tights', price: '$60' },
-    { src: '/images/3-stripes-oversized-crew-sweatshirt(women-cloths3).avif', category: 'clothing', name: 'Oversized Crew Sweatshirt', price: '$70' },
-    { src: '/images/tiro-23-league-shorts(women-cloths4).avif', category: 'clothing', name: 'League Shorts', price: '$50' }
+    { src: `${process.env.PUBLIC_URL}/images/essentials-logo-duffel-bag-extra-small(women-accessories1).avif`, category: 'accessories', name: 'Small Duffel Bag', price: '$50' },
+    { src: `${process.env.PUBLIC_URL}/images/essentials-logo-duffel-bag-medium(womens-accessories2).avif`, category: 'accessories', name: 'Medium Duffel Bag', price: '$70' },
+    { src: `${process.env.PUBLIC_URL}/images/trefoil-baseball-cap(women-accessories3).avif`, category: 'accessories', name: 'Baseball Cap', price: '$25' },
+    { src: `${process.env.PUBLIC_URL}/images/prime-backpack(women-accessories4).avif`, category: 'accessories', name: 'Prime Backpack', price: '$80' },
+    { src: `${process.env.PUBLIC_URL}/images/forum-low-cl-shoes(women-shoes1).avif`, category: 'shoes', name: 'Forum Low CL Shoes', price: '$90' },
+    { src: `${process.env.PUBLIC_URL}/images/ultraboost-5-shoes(womens-shoes2).avif`, category: 'shoes', name: 'Ultraboost 5 Shoes', price: '$150' },
+    { src: `${process.env.PUBLIC_URL}/images/terrex-soulstride-flow-trail-running-shoes(women-shoes3).avif`, category: 'shoes', name: 'Terrex Soulstride Shoes', price: '$110' },
+    { src: `${process.env.PUBLIC_URL}/images/supernova-3-gtx-running-shoes(women-shoes4).avif`, category: 'shoes', name: 'Supernova GTX Running Shoes', price: '$130' },
+    { src: `${process.env.PUBLIC_URL}/images/adicolor-cargo-shorts(womens-clothing1).avif`, category: 'clothing', name: 'Cargo Shorts', price: '$55' },
+    { src: `${process.env.PUBLIC_URL}/images/feelbrilliant-designed-to-move-tights(women-cloths2).avif`, category: 'clothing', name: 'Move Tights', price: '$60' },
+    { src: `${process.env.PUBLIC_URL}/images/3-stripes-oversized-crew-sweatshirt(women-cloths3).avif`, category: 'clothing', name: 'Oversized Crew Sweatshirt', price: '$70' },
+    { src: `${process.env.PUBLIC_URL}/images/tiro-23-league-shorts(women-cloths4).avif`, category: 'clothing', name: 'League Shorts', price: '$50' }
   ],
   children: [
-    { src: '/images/microfibre-cloth(kids-accessories4).avif', category: 'accessories', name: 'Microfibre Cloth', price: '$10' },
-    { src: '/images/nmd_r1-v2-shoes(kids-shoes3).avif', category: 'shoes', name: 'NMD R1 V2 Shoes', price: '$85' },
-    { src: '/images/power-backpack(kids-accessories1).avif', category: 'accessories', name: 'Power Backpack', price: '$60' },
-    { src: '/images/power-backpack-pink(kids-accessories2).avif', category: 'accessories', name: 'Power Backpack Pink', price: '$65' },
-    { src: '/images/sereno-track-suit(kids-cloths3).avif', category: 'clothing', name: 'Sereno Track Suit', price: '$70' },
-    { src: '/images/swift-run-22-shoes(kids-shoes1).avif', category: 'shoes', name: 'Swift Run 22 Shoes', price: '$90' },
-    { src: '/images/trefoil-shorts-tee-set(kids-cloths4).avif', category: 'clothing', name: 'Trefoil Shorts Tee Set', price: '$50' },
-    { src: '/images/adicolor-pants(kids-cloths2).avif', category: 'clothing', name: 'Adicolor Pants', price: '$40' },
-    { src: '/images/adidas-essentials-chelsea-shorts(kids-cloths1).avif', category: 'clothing', name: 'Essentials Chelsea Shorts', price: '$45' },
-    { src: '/images/goletto-viii-firm-ground-boots(kids-shoes2).avif', category: 'shoes', name: 'Goletto VIII Boots', price: '$75' },
-    { src: '/images/gazelle-bold-shoes-kids(kids-shoes4).avif', category: 'shoes', name: 'Gazelle Bold Shoes', price: '$80' },
-    { src: '/images/uwcl-league-void-ball(kids-accessories3).avif', category: 'accessories', name: 'UWCL League Void Ball', price: '$15' }
+    { src: `${process.env.PUBLIC_URL}/images/microfibre-cloth(kids-accessories4).avif`, category: 'accessories', name: 'Microfibre Cloth', price: '$10' },
+    { src: `${process.env.PUBLIC_URL}/images/nmd_r1-v2-shoes(kids-shoes3).avif`, category: 'shoes', name: 'NMD R1 V2 Shoes', price: '$85' },
+    { src: `${process.env.PUBLIC_URL}/images/power-backpack(kids-accessories1).avif`, category: 'accessories', name: 'Power Backpack', price: '$60' },
+    { src: `${process.env.PUBLIC_URL}/images/power-backpack-pink(kids-accessories2).avif`, category: 'accessories', name: 'Power Backpack Pink', price: '$65' },
+    { src: `${process.env.PUBLIC_URL}/images/sereno-track-suit(kids-cloths3).avif`, category: 'clothing', name: 'Sereno Track Suit', price: '$70' },
+    { src: `${process.env.PUBLIC_URL}/images/swift-run-22-shoes(kids-shoes1).avif`, category: 'shoes', name: 'Swift Run 22 Shoes', price: '$90' },
+    { src: `${process.env.PUBLIC_URL}/images/trefoil-shorts-tee-set(kids-cloths4).avif`, category: 'clothing', name: 'Trefoil Shorts Tee Set', price: '$50' },
+    { src: `${process.env.PUBLIC_URL}/images/adicolor-pants(kids-cloths2).avif`, category: 'clothing', name: 'Adicolor Pants', price: '$40' },
+    { src: `${process.env.PUBLIC_URL}/images/adidas-essentials-chelsea-shorts(kids-cloths1).avif`, category: 'clothing', name: 'Essentials Chelsea Shorts', price: '$45' },
+    { src: `${process.env.PUBLIC_URL}/images/goletto-viii-firm-ground-boots(kids-shoes2).avif`, category: 'shoes', name: 'Goletto VIII Boots', price: '$75' },
+    { src: `${process.env.PUBLIC_URL}/images/gazelle-bold-shoes-kids(kids-shoes4).avif`, category: 'shoes', name: 'Gazelle Bold Shoes', price: '$80' },
+    { src: `${process.env.PUBLIC_URL}/images/uwcl-league-void-ball(kids-accessories3).avif`, category: 'accessories', name: 'UWCL League Void Ball', price: '$15' }
   ]
 };
 
@@ -86,7 +86,7 @@ function SectionPage({ category }) {
       <div className="items-grid">
         {filteredItems.map((item, index) => (
           <div key={index} className="item-card" onClick={() => openModal(item)}>
-            <img src={item.src} alt={item.name} />
+            <img src={item.src} alt={item.name} className="item-image" />
             <div className="item-info">
               <p className="item-name">{item.name}</p>
               <p className="item-price">{item.price}</p>
