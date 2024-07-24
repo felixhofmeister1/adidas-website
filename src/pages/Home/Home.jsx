@@ -10,15 +10,15 @@ function Home() {
       <HeroCarousel />
       <div className="section-grid">
         <Link to="/men" className="section-card">
-          <img src="/images/for-men.avif" alt="Men's Collection" />
+          <img src={`${process.env.PUBLIC_URL}/images/for-men.avif`} alt="Men's Collection" />
           <div className="section-label">Men</div>
         </Link>
         <Link to="/women" className="section-card">
-          <img src="/images/for-women.avif" alt="Women's Collection" />
+          <img src={`${process.env.PUBLIC_URL}/images/for-women.avif`} alt="Women's Collection" />
           <div className="section-label">Women</div>
         </Link>
         <Link to="/children" className="section-card">
-          <img src="/images/for-children.avif" alt="Kids' Collection" />
+          <img src={`${process.env.PUBLIC_URL}/images/for-children.avif`} alt="Kids' Collection" />
           <div className="section-label">Kids</div>
         </Link>
       </div>
