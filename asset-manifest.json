@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/adidas-website/static/css/main.cf4ca0b3.css",
-    "main.js": "/adidas-website/static/js/main.8d3c029c.js",
+    "main.js": "/adidas-website/static/js/main.ec0cafe7.js",
     "index.html": "/adidas-website/index.html",
     "main.cf4ca0b3.css.map": "/adidas-website/static/css/main.cf4ca0b3.css.map",
-    "main.8d3c029c.js.map": "/adidas-website/static/js/main.8d3c029c.js.map"
+    "main.ec0cafe7.js.map": "/adidas-website/static/js/main.ec0cafe7.js.map"
   },
   "entrypoints": [
     "static/css/main.cf4ca0b3.css",
-    "static/js/main.8d3c029c.js"
+    "static/js/main.ec0cafe7.js"
   ]
 }
