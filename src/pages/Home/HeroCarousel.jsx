@@ -2,9 +2,9 @@ import React, { useEffect, useState } from 'react';
 import './HeroCarousel.css';
 
 const images = [
-  "/images/hero-banner-1.jpg",
-  "/images/hero-banner-2.jpg",
-  "/images/hero-banner-3.jpg",
+  `${process.env.PUBLIC_URL}/images/hero-banner-1.jpg`,
+  `${process.env.PUBLIC_URL}/images/hero-banner-2.jpg`,
+  `${process.env.PUBLIC_URL}/images/hero-banner-3.jpg`,
 ];
 
 function HeroCarousel() {
