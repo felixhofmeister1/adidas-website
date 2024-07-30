@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 import Home from './pages/Home/Home';
 import SectionPage from './components/SectionPage/SectionPage';
 import ShoppingCartPage from './components/ShoppingCartPage/ShoppingCartPage';
@@ -17,6 +17,7 @@ function App() {
           <Route path="/women" element={<SectionPage category="women" />} />
           <Route path="/children" element={<SectionPage category="children" />} />
           <Route path="/shopping-cart" element={<ShoppingCartPage />} />
+          <Route path="*" element={<Navigate to="/" replace />} /> 
         </Routes>
       </Router>
     </CartProvider>
